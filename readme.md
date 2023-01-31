@@ -1,6 +1,6 @@
 # Characterizing Cellular Differentiation Potency and Waddington Landscape via Energy Indicator
 
-We quantitatively characterize the cellular differentiation potency and Waddington landscape using Hopfield energy
+We quantitatively characterize the cellular differentiation potency and Waddington landscape using Hopfield energy.
 
  
 
