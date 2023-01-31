@@ -1,0 +1,9 @@
+Stage	State
+X2Cell_1	1
+X2Cell_2	1
+X2Cell_3	1
+X2Cell_4	1
+X4Cell_1	2
+X4Cell_2	2
+X4Cell_3	2
+X4Cell_4	2
