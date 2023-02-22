@@ -49,5 +49,9 @@ The folder "scripts" contains following scripts:
 
 3. "NetworkUpdata.R" is used to simulate the cell transitions from state A to state B and reconstruct the energy landscape.
 
-   When using these scripts, you need to write the right file path.
+4. "IS.R" is used to calculate importance score (IS).
+
+When using these scripts, you need to write the right file path.
+   
+
 
