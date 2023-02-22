@@ -8,8 +8,7 @@ preprocess <- function(filename){
   sd.data <- apply(data,1,sd)
   Zscore <- (data - me.data)/sd.data
   
-  Zscore1 <- Zscore[rowSums(Zscore) > 0,]
-  Zscore1 <- na.omit(Zscore1)
+  Zscore1 <-  Zscore
   
   variation <- as.data.frame(apply(Zscore1, 1, var))
   variation[2] <- rownames(variation)
