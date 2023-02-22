@@ -33,6 +33,12 @@ The folder "data" contains related test data and annotation files.
 
 4. "index_test.txt" is an annotation file containing development stages and corresponding cell states.
 
+
+5. "node.txt" is a result file of node update during reprogramming process of somatic cell.
+
+
+6. "HVG.txt" is a list of highly variable genes.
+
    ​
 
 The folder "scripts" contains following scripts: 
