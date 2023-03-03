@@ -15,9 +15,9 @@ E <- function(filename,ann){
         {w[i,j] = 0}else{
           w[i,j] = ex[i,n]*ex[j,n]
           w[j,i]= w[i,j]}
-      }
-      E1 <- -1/2* t(ex[,n]) %*% w %*% ex[,n] 
+      } 
     }
+    E1 <- -1/2* t(ex[,n]) %*% w %*% ex[,n] 
     result <- c(result,E1)
   }
   result <- as.data.frame(result)
