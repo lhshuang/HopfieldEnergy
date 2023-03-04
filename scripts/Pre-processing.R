@@ -10,7 +10,7 @@ preprocess <- function(filename){
   
   Zscore1 <-  Zscore
   
-  variation <- as.data.frame(apply(Zscore1, 1, var))
+  variation <- as.data.frame(apply(data, 1, var))
   variation[2] <- rownames(variation)
   variation <- variation[order(variation[,1],decreasing = T),]
   variation1 <- variation[1:(0.05*length(variation[,1])),] 
